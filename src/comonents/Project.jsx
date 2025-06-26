@@ -2,16 +2,18 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div className="mx-5 sm:flex justify-between">
-      <div className='mb-4 sm:w-2/5'>
+    <div id="Project" className="mx-5 sm:flex justify-between my-20 relative">
+      <div className='mb-4 sm:w-2/5 '>
         <h3 className="subHeading mb-10">Project</h3>
-        <p className="w-full">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          quis excepturi rerum minima ratione eveniet unde eius iste cupiditate
-          id?
+        <p className="">
+          A fully responsive hotel booking and listing website built using the MERN stack. It allows users to browse, search, and filter hotels, view detailed listings with images and amenities, and securely book rooms. 
         </p>
       </div>
-        <div className="sm:w-2/5 h-70 border border-amber-200"></div>
+        <div className="">
+        <img className="sm:h-40 md:h-80" src="./src/assets/bkFull.png " alt="" />
+        <img className="sm:h-40 md:h-80" src="./src/assets/profileFull.png " alt="" />
+        <img className="border-3 rounded-xl hidden h-100 top-30 absolute sm:block sm:h-70 sm:right-30  md:right-70 lg:right-90" src="./src/assets/homeMobile.png " alt="" />
+        </div>
     </div>
   );
 };

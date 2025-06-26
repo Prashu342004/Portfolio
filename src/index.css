@@ -11,6 +11,7 @@
   --paraTextColor : #393636;
 }
 html,body{
+  overflow-x: hidden;
   background-color: var(--bgColor);
   @media (min-width: 800px) {
     width: 1000px;
@@ -19,6 +20,9 @@ html,body{
 }
 p{
   color: var(--paraTextColor)
+}
+img{
+  border-radius: 16px;
 }
 @layer utilities{
   .subHeading{
